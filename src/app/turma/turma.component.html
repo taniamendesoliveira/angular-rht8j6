@@ -1,0 +1,12 @@
+<h1>Nome: {{turma.name | uppercase}}</h1>
+<p>Descrição: {{turma.description}}</p>
+<p>Data de Inicio: {{turma.begingDate | date | uppercase}}</p>
+
+
+Nome <input [(ngModel)]="turma.name" placeholder="Nome Turma"/>
+<br>
+Descrição <input [(ngModel)]="turma.description" placeholder="Descrição Turma"/>
+<br>
+Data de Início <input [(ngModel)]="turma.begingDate" placeholder="Data de Inicio da Turma"/>
+
+   
